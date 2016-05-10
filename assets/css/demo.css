@@ -372,12 +372,11 @@
 
 
 .brand {
-    max-height: 50vh;
     max-width: 100%;
 }
 
 .main-raised {
-    margin-top: -40vh!important;
+    margin-top: -120px!important;
 }
 
 .paths {
@@ -450,9 +449,6 @@ footer {
     
 }
 
-.half-screen {
-    height: 40vh;
-}
 
 .half-screen img{
     text-align: center;
@@ -492,7 +488,6 @@ footer {
 }
 
 .owl {
-    height: 90vh;
     background: #663fb5 url("../img/team.jpg") no-repeat center bottom;
     background-size: cover;
 }
