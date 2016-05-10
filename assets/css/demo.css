@@ -376,6 +376,14 @@
     max-width: 100%;
 }
 
+.main-raised {
+    margin-top: -40vh!important;
+}
+
+.paths {
+    text-align: center;
+}
+
 .paths .b {
     text-align: center;
     color: white;
@@ -383,12 +391,12 @@
 
 .paths h5 {
     text-align: center;
-    font-size: 22px;
+    font-size: 13px;
     font-weight: 500;
 }
 
 .paths img {
-    width: 50px;
+    width: 25px;
     max-width: 20vw;
 }
 
@@ -506,10 +514,6 @@ iframe {
 }
 
 .quote {
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-bottom: 40px;
-    height: 400px;
     color: black;
     font-size: 18px;
     line-height: 19px;
@@ -522,8 +526,10 @@ iframe {
     height: 60px!important;
 }
 
-.testimonials .owl-two .owl-item {
-    height: 65vh!important;
+
+
+.sunk {
+    background-color: #312f38;
 }
 
 .card-text {
@@ -548,3 +554,19 @@ iframe {
     font-size: 20px;
 }
 
+h3 {
+    font-weight: 500;
+}
+
+b {
+    font-size: 20px;
+}
+
+.section-signup {
+    background-color: #1397D5;
+}
+
+.slide .item {
+    padding-bottom: 10px;
+    height: 325px;
+}
