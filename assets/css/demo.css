@@ -566,3 +566,36 @@ b {
     padding-bottom: 10px;
     height: 325px;
 }
+
+.client-types li {
+    padding-left: 60px;
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 990px) {
+    .index-page .wrapper > .header {
+      height: 700px!important;
+    }
+    .index-page .brand {
+      margin-top: 250px!important;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    .main-raised {
+        margin-top: -300px!important;
+    }
+    .owl {
+        height: 700px!important;
+    }
+    .owl-thumb-item img{
+        margin-top: 5px!important;
+        border: 2px solid #fff;
+        text-align: center!important;
+        max-width: 40px;
+        max-height:40px;
+    }
+    .client-types li {
+        padding-left: 0px!important;
+    }
+
+}
