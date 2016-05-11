@@ -230,13 +230,13 @@
 	<section class="contact">
 		<div class="container">
 		<div class="col-md-5 reasons">
-            <h3 class="">Synergies through Collaboration</h3>
+            <h4 class="">Synergies through Collaboration</h4>
             <p class="wp wp-7 card-subtitle text-justify"> Our goal is to develop lasting relationships with our clients by creating a customised service that creates synergies, improves efficiency and actually increases production. Using a shared virtual workspace, our clients define the role of buildBIM architects and technicians so that they can focus on their core capabilities.</p>
         </br>
-            <h3 class="bump ">Quality Service</h3>
+            <h4 class="bump ">Quality Service</h4>
             <p class="wp wp-7 card-subtitle text-justify"> We are committed to providing high quality service and results for our clients. Whether the project is your BIM model, architectural construction documents or high-resolution render, our friendly and experienced staff will ensure a successful outcome. We operate in a process of constant improvement, using the latest technologies and best practice systems to optimize our service..</p>
             </br>
-            <h3 class="bump">Quick Turnaround Times</h3>
+            <h4 class="bump">Quick Turnaround Times</h4>
             <p class="wp wp-7 card-subtitle text-justify"> BuildBIM has significant in house capacity that translates into competitive turnaround times for your projects. Whether we are developing your BIM requirements, draughting workload or hae become an integrated part of your business process, buildBIM has what it takes to complete jobs when required!</p>
          </div>
 		<div class="col-md-6 col-md-offset-1 client-types">
@@ -556,7 +556,8 @@
 		    autoplayHoverPause:true
 
 		  });
-		  $('.header').css({'height':(($(document).height()))+'px!important'});
+		  $.post("https://rocky-earth-6889.herokuapp.com/messages.json",
+			    {"message":{"name":"contact","note":"","contact":""}});
 		});
 
 	    $('.submit').click(function(event){
