@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 /* ANIMATION */
 /* SHADOWS */
 /* Shadows (from mdl http://www.getmdl.io/) */
@@ -25,9 +27,9 @@ body.inverse .card .form-control {
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
-  line-height: 1.5em;
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  font-weight: 100;
+  line-height: 1.6em;
 }
 
 a, a:hover, a:focus {
