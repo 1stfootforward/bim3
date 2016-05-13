@@ -605,3 +605,11 @@ b {
     font-size: 18px!important;
     color: #424753!important;
 }
+
+p {
+    margin-top: 20px!important;
+}
+
+.testimonials {
+    font-weight: 100!important;
+}
