@@ -488,8 +488,8 @@ footer {
 }
 
 .owl {
-    height: 90vh;
-    background: #663fb5 url("../img/team.jpg") no-repeat center bottom;
+    height: 600px!important;
+    background: #663fb5 url("../img/team-1.png") no-repeat center top;
     background-size: cover;
 }
 
