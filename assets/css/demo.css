@@ -555,21 +555,23 @@ h3 {
 }
 
 b {
-    font-size: 18px;
+    font-size: 16px;
 }
+
+i { font-weight: 200!important; font-size: 17px;}
 
 .section-signup {
     background-color: #1397D5;
 }
 
-.slide .item {
+.slide .quote {
     padding-bottom: 10px;
-    height: 325px;
+    height: 425px;
 }
 
-.client-types li {
-    padding-left: 60px;
+li {
     font-size: 18px;
+    list-style-position: inside;
 }
 
 @media only screen and (max-width: 990px) {
@@ -601,8 +603,7 @@ b {
 }
 
 .lead {
-    font-weight: 100!important;
-    font-size: 18px!important;
+    font-size: 15px!important;
     color: #424753!important;
 }
 
@@ -612,4 +613,31 @@ p {
 
 .testimonials {
     font-weight: 100!important;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none; }
+    .navbar-toggle {
+        display: block; }
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-static-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px; }
+    .navbar-collapse.collapse {
+        display: none !important; }
+        .navbar-collapse.collapse.in { 
+        display: block!important; 
+        margin-top: 0px; }
+}
+@media (min-width: 1200px) {
+    .navbar-header {
+        float: left; }
+    .navbar-toggle {
+    display: none; }
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-static-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+        display: block !important; }
 }
